@@ -19,28 +19,28 @@ a classe java.lang.Enum
 
 
 
-Exemplo
+Exemplo:
 
-public class Curso{
+>> public class Curso{
 
-  private String nome; 
-  private Turno turno; 
-  private int horas; 
+>>  private String nome; 
+>>  private Turno turno; 
+>>  private int horas; 
 
-  // getters e setters 
-}
+>> // getters e setters 
+>> }
 
 -------------------------
- public enum Turno {
-   MANHA("manhã")
-   TARDE("tarde")
-   NOITE("noite")
+ >> public enum Turno {
+  >>  MANHA("manhã")
+  >>  TARDE("tarde")
+  >> NOITE("noite")
 
-   private String descricao; 
+  >> private String descricao; 
 
-   Turno(Stirng descricao){
-     this.descricao = descricao; 
-   }
-   // get de descricao
- }
+  >> Turno(Stirng descricao){
+  >>  this.descricao = descricao; 
+  >> }
+  >>// get de descricao
+ >>}
 
