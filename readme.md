@@ -16,3 +16,31 @@ a classe java.lang.Enum
 > * Por convenção é usado com letras maiúsculas. Por serem objetos constantes e imutáveis. (static final)
 > * devem obrigatoriamente ter apenas um nome 
 > * Pode incluir variáveis de instância, construtor, métodos de instância, de classe
+
+
+
+Exemplo
+
+public class Curso{
+
+  private String nome; 
+  private Turno turno; 
+  private int horas; 
+
+  // getters e setters 
+}
+
+-------------------------
+ public enum Turno {
+   MANHA("manhã")
+   TARDE("tarde")
+   NOITE("noite")
+
+   private String descricao; 
+
+   Turno(Stirng descricao){
+     this.descricao = descricao; 
+   }
+   // get de descricao
+ }
+
