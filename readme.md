@@ -1,4 +1,4 @@
-# Enum no Java 
+/# Enum no Java 
 * São tipos de campos que consistem em
 um conjunto fixo de constantes
   (static final), sendo como uma lista
@@ -21,26 +21,26 @@ a classe java.lang.Enum
 
 Exemplo:
 
->> public class Curso{
+>> public class Curso{ <br/> 
 
->>  private String nome; 
->>  private Turno turno; 
->>  private int horas; 
+>>  private String nome;  <br/> 
+>>  private Turno turno; <br/> 
+>>  private int horas; <br/> 
 
->> // getters e setters 
->> }
+>> // getters e setters  <br/> 
+>> } <br/> 
 
 -------------------------
- >> public enum Turno {
-  >>  MANHA("manhã")
-  >>  TARDE("tarde")
-  >> NOITE("noite")
+ >> public enum Turno { <br/> 
+  >>  MANHA("manhã") <br/>
+  >>  TARDE("tarde") <br/> 
+  >> NOITE("noite") <br/> 
 
-  >> private String descricao; 
+  >> private String descricao; <br/>  
 
-  >> Turno(Stirng descricao){
-  >>  this.descricao = descricao; 
-  >> }
-  >>// get de descricao
+  >> Turno(Stirng descricao){ <br/> 
+  >>  this.descricao = descricao; <br/> 
+  >> } <br/> 
+  >>// get de descricao <br/> 
  >>}
 
